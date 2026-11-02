@@ -25,6 +25,7 @@ Never paste passwords, codes or screenshots of them into any AI chat.
 | File | What it does | Works in |
 |---|---|---|
 | [phone-photos-check.md](phone-photos-check.md) | Finds where "deleted" photos, screenshots and messenger media still sit on your phone | iPhone, Android, Claude Code |
+| [permission-usage-check.md](permission-usage-check.md) | Shows which apps used your camera, mic or location in the last 24 hours and what to switch to "only while using the app" | Samsung, iPhone, ChatGPT, Claude, Gemini |
 | [laptop-background-check.md](laptop-background-check.md) | Lists what is online on your laptop right now, what runs with no window and what starts on its own | Claude Code, any AI chat |
 | [pc-audit-read-only.md](pc-audit-read-only.md) | Finds what slows your Windows PC down without changing anything | Claude Code |
 | [tv-privacy-check.md](tv-privacy-check.md) | Finds the switch that reports what you watch on your smart TV, for your exact model | ChatGPT, Claude, Gemini |
