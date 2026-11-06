@@ -29,6 +29,7 @@ Never paste passwords, codes or screenshots of them into any AI chat.
 | [wifi-devices-check.md](wifi-devices-check.md) | Sorts the devices on your home Wi-Fi into known and unknown and tells you how to identify the unknown ones | Router app, ChatGPT, Claude, Gemini |
 | [unsigned-programs-check.md](unsigned-programs-check.md) | Counts the programs on your Windows PC that have no digital signature and lists their names, read-only | PowerShell, ChatGPT, Claude, Gemini |
 | [app-updates-check.md](app-updates-check.md) | Counts the apps on your Windows PC that have a newer version waiting, shows the date of your last Windows update, and tells you what to update first | PowerShell, ChatGPT, Claude, Gemini |
+| [work-folder-backup-check.md](work-folder-backup-check.md) | Counts the files in your work folder, shows whether it sits inside OneDrive or File History covers it, and gives the one line to say before an AI tool touches the folder | PowerShell, Claude Code, ChatGPT, Claude, Gemini |
 | [laptop-background-check.md](laptop-background-check.md) | Lists what is online on your laptop right now, what runs with no window and what starts on its own | Claude Code, any AI chat |
 | [pc-audit-read-only.md](pc-audit-read-only.md) | Finds what slows your Windows PC down without changing anything | Claude Code |
 | [tv-privacy-check.md](tv-privacy-check.md) | Finds the switch that reports what you watch on your smart TV, for your exact model | ChatGPT, Claude, Gemini |
