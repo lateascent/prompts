@@ -41,4 +41,10 @@ Never paste passwords, codes or screenshots of them into any AI chat.
 | [downloads-agent-check.md](downloads-agent-check.md) | 10-second check that no web page planted instructions for your AI agent in Downloads | Claude Code, Codex |
 | [claude-canaries.md](claude-canaries.md) | 3 lines for CLAUDE.md that show when Claude drops your rules or invents things | Claude Code, Claude Projects |
 
+### Writing
+
+| File | What it does | Works in |
+|---|---|---|
+| [ai-writing-check.md](ai-writing-check.md) | A 3-line prompt that points at the lines that sound like AI, the full list of patterns I cut, and how to keep proof you wrote the text | ChatGPT, Claude, Gemini |
+
 New prompts get added after I test them in a post.
