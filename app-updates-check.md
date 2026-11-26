@@ -2,6 +2,8 @@
 
 A fix for a bug only helps after you install it. This check lists the apps that have a newer version waiting and shows when Windows last updated itself. The first command only reads. The next two only open Settings pages.
 
+> Works in: Windows, PowerShell, any AI chat · Mode: the list is read-only, you run the updates · Tested: 05.11.2026
+
 ## 2 minutes, no tools
 
 1. Press Start, type PowerShell, open it (a normal window, not "as administrator").
@@ -44,3 +46,11 @@ winget upgrade --all
 - Updating can restart or close an app. Save your work first.
 - Do not paste anything with your user name, passwords or keys into an AI chat. App names only.
 - Some packages show "version numbers that cannot be determined". They are not in the count. `winget upgrade --include-unknown` shows them.
+
+## My result (05.11.2026)
+
+9 apps had a newer version waiting.
+
+---
+
+[All prompts](README.md) · [@lateascent on X](https://x.com/lateascent)

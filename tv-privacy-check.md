@@ -2,6 +2,8 @@
 
 Most smart TVs use ACR (automatic content recognition): the TV recognises what is on screen and reports it for ad profiles. A 2024 study of Samsung and LG TVs (IMC 2024, "Watching TV with the Second-Party", arxiv.org/abs/2409.06203) found it works even when the TV is used as a plain screen over HDMI, and that opting out stops the traffic to the ACR servers.
 
+> Works in: ChatGPT, Claude, Gemini · Mode: advice only, you flip the switches · Tested: October 2026
+
 ## Prompt (ChatGPT, Claude or Gemini)
 
 ```
@@ -30,3 +32,7 @@ for each step give me the exact menu path and what "off" looks like, then wait u
 - Samsung: Pi-hole log, 24 hours, 320 requests to the ACR server and 500 to Samsung cloud, all blocked.
 - TCL: a tracking app (com.tcl.usercenter) re-enables itself after every reboot.
 - Dijitsu: a hidden app posing as a system tool, connecting to 30+ servers.
+
+---
+
+[All prompts](README.md) · [@lateascent on X](https://x.com/lateascent)

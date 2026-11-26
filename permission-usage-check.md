@@ -1,6 +1,8 @@
-﻿# Which apps used your camera, mic or location (advice only)
+# Which apps used your camera, mic or location (advice only)
 
 Open the permission screen, type the app names into an AI chat, get a list of what to restrict. The AI only advises. You change the settings.
+
+> Works in: Samsung, iPhone, any AI chat · Mode: advice only, you change settings · Tested: 02.11.2026
 
 ## 2 minutes, no tools
 
@@ -20,3 +22,7 @@ Advice only. I change the settings myself.
 
 - Do not paste passwords, codes or card numbers into any AI chat.
 - A camera app, a map or a call app using the matching permission is normal. Limit an app only if you do not need that feature from it.
+
+---
+
+[All prompts](README.md) · [@lateascent on X](https://x.com/lateascent)

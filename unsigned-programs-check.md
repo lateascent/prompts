@@ -1,6 +1,8 @@
-﻿# Which programs on your Windows PC have no digital signature (read-only)
+# Which programs on your Windows PC have no digital signature (read-only)
 
 A digital signature shows who published a program. Most normal programs have one. This check counts how many .exe files in Downloads and Program Files are signed, and lists the ones that are not. It only reads, nothing is changed or run.
+
+> Works in: Windows, PowerShell, any AI chat · Mode: read-only · Tested: 04.11.2026
 
 ## 2 minutes, no tools
 
@@ -32,3 +34,11 @@ Advice only. I decide what to delete.
 - Unsigned does not mean dangerous: many small tools, old games and open source players have no signature.
 - A valid signature shows who published a file, not that it is safe. Do not run an installer you got from a stranger, signed or not.
 - Do not paste full paths with your user name or any passwords into an AI chat. Names only.
+
+## My result (04.11.2026)
+
+6 of 388 programs had no signature.
+
+---
+
+[All prompts](README.md) · [@lateascent on X](https://x.com/lateascent)

@@ -2,6 +2,8 @@
 
 AI detectors judge the text, not how you wrote it, and they can flag text a person wrote. Nothing here guarantees a detector will not flag you. What it does: it shows you the lines that read like AI, so you can fix them yourself, and it tells you how to keep proof that you wrote the text.
 
+> Works in: ChatGPT, Claude, Gemini · Mode: the AI points at lines, you edit · Tested: 12.11.2026
+
 ## 1. The 3-line check
 
 Paste this into any AI chat (ChatGPT, Claude, Gemini), then paste your text under it:
@@ -13,6 +15,24 @@ Do not rewrite anything else and do not add facts.
 ```
 
 The AI only points at lines. You make the edits, in your own words.
+
+Short version for an essay:
+
+```
+Here is my essay. Do not rewrite it.
+List the 5 sentences that sound most like AI and say why in a few words.
+I will fix them myself.
+```
+
+## My test (12.11.2026, GPTZero Advanced scan, Model 5.0b)
+
+| Version | Words | Result |
+|---|---|---|
+| My own draft, typos and all | 74 | 100% human |
+| Claude, "Improve my essay" (fixed grammar and word choice, kept my sentences) | 84 | 100% human |
+| Claude, asked to rewrite it with more mystical imagery (new sentences in its own style) | 136 | 100% AI |
+
+One test, one detector. GPTZero warns that texts under 100 words give less accurate results. What it showed me: fixing grammar did not get flagged, letting AI write the sentences did.
 
 ## 2. The patterns I cut from every post
 
@@ -50,3 +70,7 @@ Start writing in Google Docs or in a OneDrive file from the first line, so the h
 
 - The AI only reads and points. Do not let it rewrite your paper and hand that in.
 - Check your school's or client's AI policy before you use any AI tool on the text.
+
+---
+
+[All prompts](README.md) · [@lateascent on X](https://x.com/lateascent)

@@ -2,14 +2,22 @@
 
 Photos you deleted, screenshots of cards and IDs, and media people sent you often stay on the phone longer than you think. Check the obvious places first, then let Claude Code do a deeper read-only pass.
 
+> Works in: iPhone, Android, Claude Code · Mode: the check is read-only, you delete · Tested: 29.10.2026
+
 ## 2 minutes, no tools
 
+iPhone:
 - **Photos → Albums → Recently Deleted.** Kept for 30 days. Delete All if you don't need them.
-- **Settings → Privacy → Photos.** Switch apps from Full Access to Limited or None.
-- **Settings → Privacy → Camera.** Turn it off for apps that don't need it.
+- **Settings → Privacy & Security → Photos.** Switch apps from Full Access to Limited or None.
+- **Settings → Privacy & Security → Camera.** Turn it off for apps that don't need it.
+- Backing up your iPhone to a computer? Turn on **Encrypt local backup**.
+
+Samsung:
+- **Gallery → Menu → Recycle bin.** Deleted photos stay there for 30 days.
+
+Any phone:
 - **Telegram / WhatsApp → Storage.** Clear the media cache.
 - **Screenshots album.** Look for cards, IDs, bank apps, recovery codes.
-- Backing up your phone to a computer? Turn on **Encrypt local backup**.
 
 ## Android with Claude Code
 
@@ -33,3 +41,7 @@ Read-only. Find iPhone backups on this computer (Windows: %APPDATA%\Apple Comput
 ```
 
 My result (29.10.2026, iPhone): 674 photos in Recently Deleted, 12 apps with full photo access, 3.8 GB Telegram cache, 10,798 screenshots going back to July 2015.
+
+---
+
+[All prompts](README.md) · [@lateascent on X](https://x.com/lateascent)

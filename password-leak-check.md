@@ -2,6 +2,8 @@
 
 Find out how many of your saved passwords already showed up in data leaks, then let AI sort the fixes by risk. You never give AI a password, only site names.
 
+> Works in: iPhone, Google Password Manager, any AI chat · Mode: the check is read-only, you change passwords · Tested: 30.10.2026
+
 ## 1. Check, 60 seconds
 
 - **iPhone:** Settings → Passwords → Security Recommendations
@@ -30,3 +32,7 @@ Here is a list of sites where my passwords were found in data leaks or reused. I
 - Delete old accounts you don't use instead of fixing them.
 
 My result (30.10.2026, Google Password Checkup + haveibeenpwned): 217 leaked, 84 reused, 96 weak, email in 2 breaches.
+
+---
+
+[All prompts](README.md) · [@lateascent on X](https://x.com/lateascent)

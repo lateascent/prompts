@@ -2,6 +2,8 @@
 
 An AI tool with access to a folder can delete files in it, and a mistake can reach the files you care about. A second copy is what lets you undo it. This check counts the files in your work folder, tells you whether the folder sits inside OneDrive, and shows whether File History is running. It only reads, nothing is deleted or moved.
 
+> Works in: Windows, PowerShell, any AI tool · Mode: step 1 is read-only · Tested: 06.11.2026
+
 ## 1. Check, 3 lines
 
 1. Press Start, type PowerShell, open it (a normal window, not "as administrator").
@@ -47,3 +49,11 @@ OneDrive keeps deleted files in its recycle bin for 30 days on personal accounts
 - Step 1 only reads. Steps 2 and 4 change things, so do them yourself.
 - A cloud folder that syncs is not a backup if a deleted file is deleted everywhere. Keep one copy that does not sync.
 - Do not paste folder paths with your user name, passwords or keys into an AI chat.
+
+## My result (06.11.2026)
+
+80,136 files in my work folder had no second copy.
+
+---
+
+[All prompts](README.md) · [@lateascent on X](https://x.com/lateascent)

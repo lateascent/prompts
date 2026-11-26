@@ -2,6 +2,8 @@
 
 I ran this on 25.10.2026. Claude: email in 2 minutes, 35 chats, 657 messages, 209 files, 8 projects, 101 MB. ChatGPT: requested at the same minute, no email after 6 hours (OpenAI says up to 7 days).
 
+> Works in: ChatGPT, Claude (web or desktop app), Node.js optional · Mode: export only, nothing is deleted · Tested: 25.10.2026
+
 ## 5 steps, on a computer
 
 1. **ChatGPT:** Settings → Data controls → Export data. The download link comes by email and expires after 24 hours. OpenAI says the email can take up to 7 days.
@@ -19,3 +21,7 @@ node count-chats.js path/to/conversations.json client,proposal,invoice
 ```
 
 It prints only numbers: how many chats, file size, oldest and newest date, and how many chat titles contain your keywords. No chat text is shown.
+
+---
+
+[All prompts](README.md) · [@lateascent on X](https://x.com/lateascent)

@@ -2,6 +2,8 @@
 
 A single "start every reply with my name" line catches drift (Claude dropping your rules), not hallucinations. These 3 lines catch both.
 
+> Works in: Claude Code, Claude Projects · Mode: adds 3 lines to your instructions
+
 ## Paste at the top of CLAUDE.md (or your project instructions on claude.ai)
 
 ```
@@ -14,3 +16,7 @@ A single "start every reply with my name" line catches drift (Claude dropping yo
 - Name gone → `/compact` or start a new chat.
 - "not verified" → check it before you run it.
 - In Claude Code every file it opens shows up as a Read step, so you can check the "files read:" line against it.
+
+---
+
+[All prompts](README.md) · [@lateascent on X](https://x.com/lateascent)

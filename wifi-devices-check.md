@@ -1,6 +1,8 @@
-﻿# What is connected to your home Wi-Fi (advice only)
+# What is connected to your home Wi-Fi (advice only)
 
 Open the list of devices on your router, type the names into an AI chat, get them sorted into known and unknown. The AI only advises. You change the settings.
+
+> Works in: Router app, any AI chat · Mode: advice only, you change settings
 
 ## 2 minutes, no tools
 
@@ -25,3 +27,7 @@ If your router still uses the admin password from the sticker, change it in the 
 
 - Do not paste passwords, codes or card numbers into any AI chat.
 - An unknown device is not always a threat: many phones and smart plugs show a technical name. Check before you block anything.
+
+---
+
+[All prompts](README.md) · [@lateascent on X](https://x.com/lateascent)

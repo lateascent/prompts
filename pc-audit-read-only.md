@@ -2,6 +2,8 @@
 
 I ran this on my Windows laptop on 22.10.2026. The biggest memory user after Chrome was the Claude app itself: 3 GB across 13 processes.
 
+> Works in: Claude Code on Windows · Mode: read-only · Tested: 22.10.2026
+
 ## Prompt (Claude Code on Windows)
 
 ```
@@ -17,3 +19,7 @@ then give me one table: what it is, why it runs, safe to turn off? yes / no / as
 ```
 
 On a Mac, swap services and tasks for launch agents and login items.
+
+---
+
+[All prompts](README.md) · [@lateascent on X](https://x.com/lateascent)

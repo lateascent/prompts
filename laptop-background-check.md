@@ -2,6 +2,8 @@
 
 What is talking to the internet on your computer right now, what runs with no window, and what starts on its own. Nothing is closed, deleted or changed.
 
+> Works in: Claude Code, Codex or any AI chat, Windows or Mac · Mode: read-only · Tested: 27.10.2026
+
 ## Prompt (Claude Code, Codex or any agent that can run commands)
 
 ```
@@ -35,3 +37,7 @@ lsof -i -P | grep ESTABLISHED
 - Restart once a week.
 
 My result (27.10.2026): 42 live connections from 9 apps, Zoom running 5 days with no window, 24 background programs with no window, 7 apps starting at login.
+
+---
+
+[All prompts](README.md) · [@lateascent on X](https://x.com/lateascent)
